@@ -10,6 +10,13 @@ import Dashboard from './components/Dashboard';
 import Footer from './components/Footer';
 
 function App() {
+
+//  const [tickets, setTickets] = useState([]);
+//   const [loading, setLoading] = useState()
+//   const [taskStatusTickets, setTaskStatusTickets] = useState([])
+
+
+
   // all tickets data
   const [tickets, setTickets] = useState([]);
 
@@ -78,8 +85,10 @@ function App() {
     const ticketToComplete = taskStatusTickets.find(ticket => ticket.id === ticketId);
 
     if (ticketToComplete) {
-      
+
+      // setResolvedTickets([/resolvedTickets, ticketToComplete]);
       setResolvedTickets([...resolvedTickets, ticketToComplete]);
+
     
       setTaskStatusTickets(taskStatusTickets.filter(ticket => ticket.id !== ticketId));
      
