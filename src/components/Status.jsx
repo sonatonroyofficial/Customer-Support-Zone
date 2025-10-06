@@ -6,6 +6,7 @@ const Status = ({ taskStatusTickets = [], resolvedTickets = [] }) => {
   const inProgressCount = taskStatusTickets.length;
   
   // Count resolved tickets
+  
   const resolvedCount = resolvedTickets.length;
 
   return (

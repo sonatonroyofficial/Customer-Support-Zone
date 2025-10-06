@@ -45,7 +45,6 @@ const Dashboard = ({ tickets, loading, taskStatusTickets, resolvedTickets, onSel
           )}
         </div>
 
-        
         <div className="lg:w-[30%]">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">Task Status</h2>
           

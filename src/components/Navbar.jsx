@@ -12,6 +12,7 @@ const Navbar = () => {
           </div>
           
           {/* Desktop Menu */}
+
           <div className="hidden lg:flex items-center gap-6">
             <ul className="flex gap-6">
               <li><a href="/home" className="text-black hover:text-gray-800">Home</a></li>
@@ -36,6 +37,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile: New Ticket Button + Hamburger */}
+
           <div className="lg:hidden flex items-center gap-3">
             <a 
               href="/new-ticket" 
@@ -62,6 +64,7 @@ const Navbar = () => {
         </nav>
 
         {/* Mobile Menu */}
+        
         {isMenuOpen && (
           <div className="lg:hidden bg-white border-t border-gray-200 py-4">
             <ul className="flex flex-col gap-4">

@@ -14,7 +14,6 @@ const DashCard = ({ id, title, description, customer, priority, status, createdA
         return { bg: 'bg-gray-100', text: 'text-gray-600', label: priority };
     }
   };
-
   
   const getStatusStyle = (status) => {
     switch (status.toLowerCase()) {
