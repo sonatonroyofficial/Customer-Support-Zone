@@ -19,13 +19,10 @@ function App() {
 
   // all tickets data
   const [tickets, setTickets] = useState([]);
-
-
+   
   const [loading, setLoading] = useState(true);
 
-
   const [taskStatusTickets, setTaskStatusTickets] = useState([]);
-
 
   const [resolvedTickets, setResolvedTickets] = useState([]);
 
