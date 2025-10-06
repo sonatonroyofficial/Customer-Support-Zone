@@ -17,8 +17,9 @@ Type Safety: Provides compile-time error checking
 
 Developer Experience: Enables better tooling and IDE support
 
-jsx
-// JSX example
+
+Example: 
+
 const element = <h1>Hello, World!</h1>;
 
 // This compiles to:
